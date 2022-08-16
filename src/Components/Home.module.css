@@ -1,0 +1,10 @@
+.body {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3rem;
+  justify-items: center;
+}
+
+.flamingo {
+  max-width: 100%;
+}

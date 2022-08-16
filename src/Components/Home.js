@@ -1,12 +1,20 @@
 import React from "react";
+import styles from "./Home.module.css";
 
-const Home = () => {
+const home = () => {
   return (
-    <div>
-      <p>Elizabeth O'Hagan</p>
-      <p>Lizz ...... blah blah blah</p>
-    </div>
+    <>
+      <div className={styles.body}>
+        <h1>A whole lot of sass!</h1>
+        <img
+          className={styles.flamingo}
+          src="/Images/Flamingo.png"
+          alt="flamingo"
+        />
+        <p>Lizz ...... blah blah blah</p>
+      </div>
+    </>
   );
 };
 
-export default Home;
+export default home;

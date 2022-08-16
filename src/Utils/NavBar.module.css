@@ -1,0 +1,26 @@
+.nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: rgb(255, 0, 144);
+  list-style-type: none;
+  max-width: 12%;
+}
+
+.navLinks {
+  color: white;
+  text-align: left;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* align-items: end; */
+  justify-items: right;
+  /* justify-self: end; */
+  /* align-self: end; */
+
+  /* position: absolute;  */
+  /* right: 5%; */
+  cursor: pointer;
+}
